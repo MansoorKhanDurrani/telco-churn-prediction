@@ -128,4 +128,4 @@ telco-customer-churn-analysis/
 
 BS Software Engineering
 
-Machine Learning Project
+Machine Learning and Data Science Project
