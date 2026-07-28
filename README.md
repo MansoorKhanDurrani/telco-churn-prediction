@@ -90,6 +90,26 @@ Key findings from the analysis include:
 
 ---
 
+## Data Quality Issues
+
+During data exploration, the following issues were identified:
+
+- The `TotalCharges` column was stored as an object instead of a numeric type.
+- Missing values were present in the `TotalCharges` column.
+- These missing values were removed after converting the column to numeric format.
+- No duplicate records were found.
+
+---
+
+## Limitations
+
+- The dataset represents historical customer behavior and may not reflect future trends.
+- Only two machine learning models were evaluated.
+- No hyperparameter tuning or cross-validation was performed.
+- The model is intended as a baseline solution rather than a production-ready system.
+
+---
+
 ## Future Improvements
 
 Possible future enhancements include:
